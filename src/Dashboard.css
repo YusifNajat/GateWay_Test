@@ -1,0 +1,213 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(236, 236, 236);
+}
+.cards {
+  margin-left: 2rem;
+}
+.row-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.col-cards {
+  margin-right: 2rem;
+  height: 7rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(107, 208, 255),
+    rgb(203, 243, 255)
+  );
+  border-radius: 0.5rem;
+  width: 18rem;
+}
+.up-col {
+  display: flex;
+  justify-content: space-around;
+}
+.paragraph {
+  color: blue;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.details {
+  text-align: center;
+  height: 1.5rem;
+  width: 7rem;
+  margin-top: 10px;
+}
+.details p {
+  background-color: rgb(56, 169, 255);
+  color: white;
+  padding: 4px;
+  border-radius: 25px;
+}
+.p-bottom {
+  color: white;
+  font-size: 2rem;
+  margin: 0 0 0 2rem;
+}
+/*--------------------- card 2 ----------------------------*/
+.col-cards2 {
+  margin-right: 2rem;
+  height: 7rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(200, 200, 200),
+    rgb(227, 227, 227)
+  );
+  border-radius: 10px;
+  width: 18rem;
+}
+.up-col2 {
+  display: flex;
+  justify-content: space-around;
+}
+.paragraph2 {
+  color: #777;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.details2 {
+  text-align: center;
+  height: 1.5rem;
+  width: 7rem;
+  margin-top: 10px;
+}
+.details2 p {
+  background-color: rgb(140, 140, 140);
+  color: white;
+  padding: 4px;
+  border-radius: 25px;
+}
+/*--------------------------- card3 ----------------------------------*/
+.col-cards3 {
+  height: 7rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 140, 140),
+    rgb(255, 207, 207)
+  );
+  border-radius: 10px;
+  width: 18rem;
+}
+.up-col3 {
+  display: flex;
+  justify-content: space-around;
+}
+.paragraph3 {
+  color: red;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.details3 {
+  text-align: center;
+  height: 1.5rem;
+  width: 7rem;
+  margin-top: 10px;
+}
+.details3 p {
+  background-color: rgb(255, 100, 100);
+  color: white;
+  padding: 4px;
+  border-radius: 25px;
+}
+/*------------------------- section transaction --------------------------*/
+.transaction {
+  margin: 4rem 2rem 2rem 2rem;
+}
+.transaction_history {
+  margin: 1rem 2rem 2rem 2rem;
+}
+.today {
+  display: inline-block;
+  width: 58rem;
+  height: 4rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+.icons {
+  display: inline;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  padding-inline: 0.4rem;
+  background-color: rgba(88, 219, 255, 0.534);
+  margin-right: 1rem;
+}
+
+.center {
+  margin: 1.5rem 0 0 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.span p {
+  display: inline;
+}
+.col-of-2-flex {
+  display: flex;
+  position: relative;
+}
+.t-col-1 {
+  position: absolute;
+  right: 8rem;
+  bottom: -2.2rem;
+}
+.t-col-1 p {
+  color: rgb(104, 104, 104);
+  font-weight: 500;
+  width: 100px;
+}
+.t-col-2 {
+  position: absolute;
+  right: 1.5rem;
+  bottom: -2.5rem;
+  width: 4.8rem;
+}
+.t-col-2 p {
+  color: red;
+  background-color: rgb(255, 207, 207);
+  font-weight: 600;
+  padding: 0.3rem 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+.btns {
+  position: relative;
+  margin-top: 2rem;
+  width: 58rem;
+}
+.btns a {
+  text-decoration: none;
+  background-color: #bbcdd6;
+  color: #4b85a4;
+  padding: 0.3rem 1rem;
+  border-radius: 5rem;
+}
+.left {
+  position: absolute;
+  right: 0;
+}
+
+@media (max-width: 800px) {
+  .row-cards {
+    flex-direction: column;
+  }
+  .left {
+    position: absolute;
+    left: 0;
+  }
+  .today {
+    display: inline-block;
+    width: 20rem;
+    height: 4rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .center {
+    margin: 1.5rem 0 0 1rem;
+    display: flex;
+  }
+}

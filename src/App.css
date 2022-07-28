@@ -1,0 +1,21 @@
+@font-face {
+  font-family: shasenem-hiwa;
+  src: url(assets/Speda.ttf);
+  font-size: 16px;
+  font-weight: bolder;
+}
+@font-face {
+  font-family: shasenem-hiwa-print;
+  src: url(assets/hewa.ttf);
+  font-size: 16px;
+  font-weight: bolder;
+}
+.fk {
+  font-family: shasenem-hiwa;
+  font-size: 16px;
+}
+
+.fkp {
+  font-family: shasenem-hiwa-print;
+  font-size: 16px;
+}
