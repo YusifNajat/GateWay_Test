@@ -2,7 +2,6 @@ import React, { Fragment, Component } from "react";
 import Breadcrumb from "./components/common/breadcrumb";
 import { connect } from "react-redux";
 import "./Dashboard.css";
-import "react-toastify/dist/ReactToastify.css";
 import { DollarSign } from "react-feather";
 import _, { truncate } from "lodash";
 import { Button, Form, Input, Modal, Radio, Select } from "antd";

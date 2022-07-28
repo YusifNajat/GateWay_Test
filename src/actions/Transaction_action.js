@@ -1,7 +1,4 @@
 import * as actions from "./Type";
-import Instance from "../util/Instance";
-import swal from "sweetalert";
-import "react-toastify/dist/ReactToastify.css";
 
 export const Add_Transaction = (data) => {
   return async (dispatch) => {
