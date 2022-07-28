@@ -8,4 +8,4 @@
 
 # npm -v = v6.12.0
 
-# Thanks For Reading
+# Thanks!
